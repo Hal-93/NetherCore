@@ -1,0 +1,4 @@
+name: NetherCore
+version: '${version}'
+main: net.netherserver.nethercore.NetherCore
+api-version: '1.21'
