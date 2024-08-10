@@ -6,12 +6,12 @@ public final class NetherCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getLogger().info("NetherCore plugin enabled.");
+        getCommand("nc").setExecutor(new Status());
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("NetherCore plugin disabled.");
     }
 }

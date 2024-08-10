@@ -2,3 +2,9 @@ name: NetherCore
 version: '${version}'
 main: net.netherserver.nethercore.NetherCore
 api-version: '1.21'
+commands:
+  nc:
+    description: NetherCore basic command
+    permission: NetherCore.admin
+    permission-message: Permission denied
+    usage: Command usage
